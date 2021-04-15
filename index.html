@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JiveFlix</title>
+</head>
+
+<body>
+	<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css">
+<style type="text/css"> 
+body {
+  background-image: url("fundo.png");
+  background-color: #000000;
+}
+	img{
+		margin: 0 0 0 0;
+	}
+.grow
+{
+transition:all 0.3s ease; 
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+.grow:hover
+{
+transition:all 0.3s ease; 
+-webkit-transform: scale(1.4);
+-ms-transform: scale(1.4);
+transform: scale(1.4);
+
+}
+#menu-principal {
+display: block;
+overflow: auto;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 495px;
+height: 554px;
+background-image:url("Imagem-JiveFlix/Cerebro Transp2.png");
+}
+#lado-esquerdo{
+float:left;
+}
+#lado-direito{
+float:right;
+}
+#header-intro{
+display: block;
+margin-top: 40px;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+width: 205px;
+height: 66px;
+background-image:url("Imagem-JiveFlix/JiveFlix3.png");
+}
+#programa1{
+display: block;
+width: 120px;
+height: 120px;
+margin:65px 0 0 110px;
+background-image:url("Imagem-JiveFlix/Botoes2.png");
+}
+	
+#programa2{
+display: block;
+width: 120px;
+height: 120px;
+margin:25px 0 0 50px;
+background-image:url("Imagem-JiveFlix/Botoes2.png");
+}
+	
+#programa3{
+display: block;
+width: 120px;
+height: 120px;
+margin:25px 0 0 90px;
+background-image:url("Imagem-JiveFlix/Botoes2.png");
+}
+#programa4{
+display: block;
+width: 120px;
+height: 120px;
+margin:110px 75px 0 0;
+background-image:url("Imagem-JiveFlix/Botoes2.png");
+}
+#programa5{
+display: block;
+width: 120px;
+height: 120px;
+margin:80px 50px 0 0;
+background-image:url("Imagem-JiveFlix/Botoes2.png");
+}
+
+.titulos-intro{
+font-family:Lato;
+font-size: 11px;
+text-align:center;
+color:#9aca3b;
+margin: 0 0 0 0;
+padding-top: 50px;
+}
+.titulos-img-intro{
+font-family:Lato;
+font-size: 11px;
+text-align:center;
+color:#92ea69;
+margin: 0 0 0 0;
+padding-top: 36px;
+}
+.subtitulos-intro{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-size: 10px;
+text-align:center;
+color:#FFFFFF; 
+margin: 0 0 0 0;
+}
+	.link-menu{
+		text-decoration: none;
+		width: 120px;
+height: 120px;
+	}
+.grow:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+cursor:pointer;
+}
+	
+.fade-menu
+{
+transition:all 0.3s ease;
+opacity:.8;
+}
+
+</style>
+	<div id="header-intro"></div>
+	<div id="menu-principal">
+		<div id="lado-esquerdo">
+		<div id="programa1" class="grow">
+			<p class="titulos-intro">BEM VINDO À JIVE</p>
+			<p class="subtitulos-intro">Programa de Onboarding</p>
+		</div>
+		<div id="programa2" class="grow">
+			<p class="titulos-intro">CONHEÇA A JIVE</p>
+			<p class="subtitulos-intro">Programa Institucional</p>
+		</div>
+		<div id="programa3" class="grow">
+			<p class="titulos-intro">GRC</p>
+			<p class="subtitulos-intro">Programa de Compliance</p>
+		</div>
+		</div>
+		<div id="lado-direito">
+			<div id="programa4" class="grow">
+				<a href="jiveacademy.html" class="link-menu">
+			<p class="titulos-img-intro"><img src="Imagem-JiveFlix/jiveacademymini.png" alt=""/></p>
+			<p class="subtitulos-intro">Programa de Formação</p>
+				</a>
+		</div>
+		<div id="programa5" class="grow">
+			<p class="titulos-intro">DIGITAL</p>
+			<p class="subtitulos-intro">Programa de Tranf. Digital</p>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
