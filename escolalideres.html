@@ -5,10 +5,9 @@
 <title>Jive Academy</title>
 </head>
 <body>
-	<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css"/>
 <style type="text/css"> 
 body {
-background-image: url("Imagem-JiveFlix/bg-lider.png");
+background-image: url("Imagem-JiveFlix/bg-apl.png");
 background-color: #003758;
 background-repeat: no-repeat;
 margin:0;
@@ -17,6 +16,34 @@ padding: 0;
 a{
 	text-decoration: none;
 	font-color:#333333;
+}
+@font-face {
+font-family: "Font1";
+src: url('Fonts/fontsfree-net-sfprodisplay-bold-webfont.woff2') format('woff2'),
+url('Fonts/fontsfree-net-sfprodisplay-bold-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font2";
+src: url('Fonts/fontsfree-net-sfprodisplay-regular-webfont.woff2') format('woff2'),
+url('Fonts/fontsfree-net-sfprodisplay-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font3";
+src: url('Fonts/silka-regular-webfont.woff2') format('woff2'),
+url('Fonts/silka-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font4";
+src: url('Fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+url('Fonts/sourcesanspro-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 }
 #home-voltar{
 padding:5px 0 0 5px;
@@ -27,7 +54,7 @@ margin-top: 0;
 margin-bottom: 0px;
 margin-left: auto;
 margin-right: auto;
-width: 700px;
+width: 770px;
 }
 #header-badget{
 display: block;
@@ -46,38 +73,35 @@ margin-left: 10px;
 margin-right: auto;
 }
 #header-escola p{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-font-size: 25px;
+font-family: "Font4";
+font-size: 30px;
 text-align:left;
 color:#FFFFFF;
 margin: 15px 0 0 0;
 }
 #desc-jiveacademy-bg{
 display: block;
-margin-top: 100px;
+margin-top: 85px;
 margin-left: auto;
 margin-right: auto;
 background-color: #011520;
 width: 100%;
-height: 300px;
 }
 #desc-jiveacademy{
 display: block;
-padding-top: 10px;
-margin-bottom: 0px;
+padding: 10px 0 10px 0;
 margin-left: auto;
 margin-right: auto;
 width: 950px;
 }
 #desc-jiveacademy p{
-font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-font-size: 11px;
+font-family:"Font3";
+font-size: 12px;
 text-align:center;
 color:#FFFF;
 }
 #video-intro-bg{
 display: block;
-margin-top: 20px;
 margin-left: auto;
 margin-right: auto;
 background-color: #001d2d;
@@ -90,10 +114,16 @@ margin-left: auto;
 margin-right: auto;
 width: 576px;
 }
+#menu-escola-box{
+display: block;
+width: 100%;
+height:250px;
+background-color: #003b5b;
+}
 #menu-escola{
 display: block;
 width: 950px;
-margin-top: 80px;
+padding: 30px 0 0 0;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 50px;
@@ -102,7 +132,7 @@ margin-bottom: 50px;
 float:left;
 width: 202px;
 height: 193px;
-margin: 20px 0 30px 30px;
+margin: 0 0 30px 30px;
 background-image:url("Imagem-JiveFlix/bloco-lid.png");
 }
 .fileira-2{
@@ -112,16 +142,20 @@ height: 193px;
 margin: 30px 0 30px 30px;
 background-image:url("Imagem-JiveFlix/bloco-lid.png");
 }
-
 .titulo-fileira-1{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-font-size: 15px;
+font-family: "Font3";
+font-size: 14px;
 text-align:left;
-color:#000000;
-margin: 20px 0 0 15px;
+color:#FFFFFF;
+margin: 20px 0 0 10px;
+font-weight: bold;
+}
+.titulo-fileira-1 span{
+background-color: #b0acac;
+padding: 0 5px 0 5px;
 }
 .subtitulo-fileira-1{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-family: "Font3";
 font-size: 11px;
 text-align:left;
 color:#000000;
@@ -129,8 +163,8 @@ margin: 20px 0 0 15px;
 }
 
 .botao-saiba-mais{
-width: 80px;
-height: 30px;
+width: 70px;
+height: 28px;
 border-color: #333333;
 border-style: solid;
 margin: 50px auto 0 auto;
@@ -145,9 +179,9 @@ transform: scale(1.1);
 }
 
 .texto-saiba-mais{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-family: "Font3";
 font-weight: bold;
-font-size: 11px;
+font-size: 10px;
 text-align:center;
 color:#333333;
 margin: 0 0 0 0;
@@ -171,27 +205,27 @@ opacity:1;
 	</div>
 	<div id="desc-jiveacademy-bg">
 	<div id="desc-jiveacademy">
-	  <p>Em nossa <b>escola de <span style="color:#9aca3b">líderes </span></b>você encontrará temas direcionados à conhecimentos, ferramentas e habilidades técnicas que darão repertório a todos os líders na <span style="color:#9aca3b">gestão de pessoas, projetos e processos</span> dentro da Jive.</p></div>
-	<div id="video-intro-bg"><div id="video-intro"><iframe width="576" height="300" src="https://www.youtube.com/embed/O6F70sQWEFQ?rel=0&modestbranding=1&controls=0" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+	  <p>Em nossa <b>escola de <span style="color:#9aca3b">líderes </span></b>você encontrará temas direcionados à conhecimentos, ferramentas e habilidades técnicas que darão repertório a todos os líders na <b><span style="color:#9aca3b">gestão de pessoas, projetos e processos</span></b> dentro da Jive.</p></div>
 	</div>
+	<div id="video-intro-bg"><div id="video-intro"><iframe width="576" height="300" src="https://www.youtube.com/embed/O6F70sQWEFQ?rel=0&modestbranding=1&controls=0" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+	<div id="menu-escola-box">
 	<div id="menu-escola">
-		<div>
 		<div class="fileira-1">
-			<p class="titulo-fileira-1">PROG.LIDERANÇA</p>
+			<p class="titulo-fileira-1"><span>PROG.LIDERANÇA</span></p>
 			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
 		</div>
 		<div class="fileira-1">
-			<p class="titulo-fileira-1">MANAGEMENT 3.0</p>
+			<p class="titulo-fileira-1"><span>MANAGEMENT 3.0</span></p>
 			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
 		</div>
 		<div class="fileira-1">
-			<p class="titulo-fileira-1">BLITZSCALING</p>
+			<p class="titulo-fileira-1"><span>BLITZSCALING</span></p>
 			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
 		</div>
-		</div>
+	</div>
 	</div>
 </body>
 </html>

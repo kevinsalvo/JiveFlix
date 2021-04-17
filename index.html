@@ -6,15 +6,42 @@
 </head>
 
 <body>
-	<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css">
 <style type="text/css"> 
 body {
-  background-image: url("fundo.png");
-  background-color: #000000;
+background-image: url("fundo.png");
+background-color: #000000;
 }
-	img{
-		margin: 0 0 0 0;
-	}
+img{
+margin: 0 0 0 0;
+}
+@font-face {
+font-family: "Font1";
+src: url('Fonts/fontsfree-net-sfprodisplay-bold-webfont.woff2') format('woff2'),
+url('Fonts/fontsfree-net-sfprodisplay-bold-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font2";
+src: url('Fonts/fontsfree-net-sfprodisplay-regular-webfont.woff2') format('woff2'),
+url('Fonts/fontsfree-net-sfprodisplay-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font3";
+src: url('Fonts/silka-regular-webfont.woff2') format('woff2'),
+url('Fonts/silka-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font4";
+src: url('Fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+url('Fonts/sourcesanspro-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
 .grow
 {
 transition:all 0.3s ease; 
@@ -36,9 +63,9 @@ overflow: auto;
 margin-top: 40px;
 margin-left: auto;
 margin-right: auto;
-width: 417px;
-height: 466px;
-background-image:url("Imagem-JiveFlix/Cerebro.png");
+width: 438px;
+height: 473px;
+background-image:url("Imagem-JiveFlix/Cerebro2.png");
 }
 #lado-esquerdo{
 float:left;
@@ -60,9 +87,12 @@ margin-top: 20px;
 margin-bottom: 0px;
 margin-left: auto;
 margin-right: auto;
-width: 164px;
+width: 180px;
 height: 33px;
 background-image:url("Imagem-JiveFlix/JiveFlix_logo.png");
+background-repeat: no-repeat;
+background-size:contain;
+	background-position: center;
 }
 #header-intro p{
 display: block;
@@ -71,8 +101,8 @@ padding-left: 6px;
 margin-bottom: 0px;
 margin-left: auto;
 margin-right: auto;
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-font-size: 10px;
+font-family	:"Font3";
+font-size: 9px;
 color:#CECECE;
 }
 #programa1{
@@ -114,7 +144,7 @@ background-image:url("Imagem-JiveFlix/fundo_botao.png");
 }
 
 .titulos-intro{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-family:"Font4";
 font-size: 11px;
 text-align:center;
 color:#9aca3b;
@@ -127,7 +157,7 @@ margin: 0 0 0 0;
 padding-top: 30px;
 }
 .subtitulos-intro{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-family:"Font4";
 font-size: 8px;
 text-align:center;
 color:#FFFFFF; 

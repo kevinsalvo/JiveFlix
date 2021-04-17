@@ -5,14 +5,41 @@
 <title>Jive Academy</title>
 </head>
 <body>
-	<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css"/>
 <style type="text/css"> 
 body {
 background-image: url("fundo.png");
 background-color: #003758;
-	background-repeat: no-repeat;
+background-repeat: no-repeat;
 margin:0;
 padding: 0;
+}
+@font-face {
+font-family: "Font1";
+src: url('Fonts/fontsfree-net-sfprodisplay-bold-webfont.woff2') format('woff2'),
+url('Fonts/fontsfree-net-sfprodisplay-bold-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font2";
+src: url('Fonts/fontsfree-net-sfprodisplay-regular-webfont.woff2') format('woff2'),
+url('Fonts/fontsfree-net-sfprodisplay-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font3";
+src: url('Fonts/silka-regular-webfont.woff2') format('woff2'),
+url('Fonts/silka-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Font4";
+src: url('Fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+url('Fonts/sourcesanspro-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 }
 #home-voltar{
 padding:5px 0 0 5px;
@@ -40,8 +67,8 @@ display: block;
 padding-top: 65px;	
 margin-left: auto;
 margin-right: auto;
-font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-font-size: 9px;
+font-family:"Font4";
+font-size: 8px;
 font-style: italic;
 font-weight: bold;
 text-align:center;
@@ -49,29 +76,29 @@ color:#CECECE;
 }
 #desc-jiveacademy-bg{
 display: block;
-margin-top: 40px;
+margin-top: 35px;
 margin-left: auto;
 margin-right: auto;
 background-color: #011520;
 width: 100%;
+border-color: aqua;
+	border-width: medium;
 }
 #desc-jiveacademy{
 display: block;
-padding:10px 0 0 0;
-margin-bottom: 0px;
+padding:10px 0 10px 0;
 margin-left: auto;
 margin-right: auto;
 width: 950px;
 }
 #desc-jiveacademy p{
-font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-font-size: 11px;
+font-family:"Font3";
+font-size: 12px;
 text-align:center;
 color:#FFFFFF;
 }
 #video-intro-bg{
 display: block;
-margin-top: 20px;
 margin-left: auto;
 margin-right: auto;
 background-color: #001d2d;
@@ -84,12 +111,21 @@ margin-left: auto;
 margin-right: auto;
 width: 576px;
 }
+#menu-jive-academy-box{
+display: block;
+width: 100%;
+margin-top: 0;	
+background-color: #003b5b;
+}
 #menu-jive-academy{
 display: block;
+overflow: auto;
 width: 1200px;
-margin-top: 30px;
+margin-top: 0;
+padding: 30px 0 0 0;
 margin-left: auto;
 margin-right: auto;
+
 }
 #menu-item1-jive-academy{
 float:left;
@@ -113,8 +149,8 @@ margin: 0 0 0 40px;
 background-image:url("Imagem-JiveFlix/item_lideres.png")
 }
 .titulo-menu-jive-academy{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-font-size: 12px;
+font-family: "Font3";
+font-size: 11px;
 text-align:center;
 color:#FFFFFF;
 margin: 110px 0 0 0;
@@ -127,8 +163,8 @@ color:#FFFFFF;
 margin: 10px 0 0 0;
 }
 .titulo-menu-jive-academy-grey{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-font-size: 12px;
+font-family: "Font3";
+font-size: 11px;
 text-align:center;
 color:#333333;
 margin: 110px 0 0 0;
@@ -169,7 +205,7 @@ transition:all 0.3s ease;
 transform: scale(1.1);
 }
 .texto-saiba-mais{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-family: "Font3";
 font-size: 10px;
 text-align:center;
 color:#FFFFFF;
@@ -177,7 +213,7 @@ margin: 0 0 0 0;
 padding-top: 8px;
 }
 .texto-saiba-mais-grey{
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+font-family: "Font3";
 font-size: 10px;
 text-align:center;
 color:#333333;
@@ -199,11 +235,17 @@ opacity:1;
 }
 	</style>
 	<div id="home-voltar"><a href="index.html"><img src="Imagem-JiveFlix/ThumbHome.png" alt="HOME"></a></div>
+	
 	<div id="header"><div id="header-jiveacademy"><p>#LEARN DURING THE RUN</p></div></div>
+	
 	<div id="desc-jiveacademy-bg">
-	<div id="desc-jiveacademy"><p>A <b>Jive <span style="color:#9aca3b">Academy</span></b> é o nosso programa de formação interna da Jive. O programa está dividido em <b><span style="color:#9aca3b">três escolas</span></b>, onde as duas primeiras são destinadas a todos os Jivers com conteúdos de temas diversos em multi-formatos e de aprendizagem autodirigida, ou seja, se inscreva e aprenda à vontade no tempo em que preferir, e a nossa terceira escola é voltada aos líderes e gestores da Jive.</p></div>
-	<div id="video-intro-bg"><div id="video-intro"><iframe width="576" height="300" src="https://www.youtube.com/embed/O6F70sQWEFQ?rel=0&modestbranding=1&controls=0" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+		<div id="desc-jiveacademy"><p>A <b>Jive <span style="color:#9aca3b">Academy</span></b> é o nosso programa de formação interna da Jive. O programa está dividido em <b><span style="color:#9aca3b">três escolas</span></b>, onde as duas primeiras são destinadas a todos os Jivers e a terceira é aos nossos líderes e gestores. As escolas tem conteúdos de temas diversos em multi-formatos e de aprendizagem autodirigida, ou seja, se inscreva e aprenda à vontade no tempo em que preferir.</p>
+		</div>
 	</div>
+	<div id="video-intro-bg">
+		<div id="video-intro"><iframe width="576" height="300" src="https://www.youtube.com/embed/O6F70sQWEFQ?rel=0&modestbranding=1&controls=0" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	</div>
+	<div id="menu-jive-academy-box">
 	<div id="menu-jive-academy">
 		<div id="menu-item1-jive-academy" class="fade">
 			<p class="titulo-menu-jive-academy"><b>ESCOLA DE COMPETÊNCIAS APLICADAS</b></p>
@@ -214,7 +256,7 @@ opacity:1;
 		</div>
 		<div id="menu-item2-jive-academy" class="fade">
 			<p class="titulo-menu-jive-academy"><b>ESCOLA DE COMPETÊNCIAS COMPORTAMENTAIS</b></p>
-			<p class="subtitulo-menu-jive-academy">Pitch | Feedback | Agile Culture | Apresentações | Gestão de Conflitos</p>
+			<p class="subtitulo-menu-jive-academy">Pitch | Feedback | Agile Culture | Storytelling | Gestão de Conflitos</p>
 			<a href="escolacompetenciascomportamentais.html" class="link-menu">
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><b>SAIBA MAIS</b></p></div>
 			</a>
@@ -226,6 +268,7 @@ opacity:1;
 			<div class="botao-saiba-mais-grey"><p class="texto-saiba-mais-grey"><b>SAIBA MAIS</b></p></div>
 			</a>
 		</div>
+	</div>
 	</div>
 </body>
 </html>
