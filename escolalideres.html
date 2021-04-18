@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Jive Academy</title>
+<title>Escola de Líderes</title>
 </head>
 <body>
 <style type="text/css"> 
@@ -46,7 +46,24 @@ font-weight: normal;
 font-style: normal;
 }
 #home-voltar{
+width: auto;
+height: 45px;
+background:rgba(0, 0, 0, 0.08);
+}
+#home-voltar-btn{
+display: block;
+float: left;
 padding:5px 0 0 5px;
+}
+#home-logo{
+display: block;
+float:right;
+margin:5px 5px 0 0;
+width: 58px;
+height: 34px;
+background-image: url("Imagem-JiveFlix/logo_jive.png");
+background-repeat:no-repeat;
+background-size: contain;
 }
 #header{
 display: block;
@@ -54,7 +71,7 @@ margin-top: 0;
 margin-bottom: 0px;
 margin-left: auto;
 margin-right: auto;
-width: 770px;
+width: 780px;
 }
 #header-badget{
 display: block;
@@ -84,7 +101,7 @@ display: block;
 margin-top: 85px;
 margin-left: auto;
 margin-right: auto;
-background-color: #011520;
+background-color: #111111;
 width: 100%;
 }
 #desc-jiveacademy{
@@ -117,7 +134,7 @@ width: 576px;
 #menu-escola-box{
 display: block;
 width: 100%;
-height:250px;
+height: 255px;
 background-color: #003b5b;
 }
 #menu-escola{
@@ -132,7 +149,7 @@ margin-bottom: 50px;
 float:left;
 width: 202px;
 height: 193px;
-margin: 0 0 30px 30px;
+margin: 0 0 0 30px;
 background-image:url("Imagem-JiveFlix/bloco-lid.png");
 }
 .fileira-2{
@@ -151,7 +168,7 @@ margin: 20px 0 0 10px;
 font-weight: bold;
 }
 .titulo-fileira-1 span{
-background-color: #b0acac;
+background-color: #a1a1a1;
 padding: 0 5px 0 5px;
 }
 .subtitulo-fileira-1{
@@ -197,8 +214,49 @@ opacity:.8;
 transition:all 0.3s ease;
 opacity:1;
 }
+#footer-box{
+display: block;
+width: 100%;
+height: 100px;
+background-color: #011520;
+background-image: url("Imagem-JiveFlix/logo_circulo_jive2.png");
+background-position: left;
+background-repeat: no-repeat;
+}
+#footer-1{
+display: block;
+float:left;
+margin:0 0 0 180px;
+width: 103px;
+height: 100px;
+background-image: url("Imagem-JiveFlix/footer-brain.png");
+background-repeat:no-repeat;
+background-position: center;
+}
+.footer-menu{
+display: block;
+float:left;
+margin:20px 0 0 15px;
+}
+.footer-menu p{
+font-family: "Font3";
+font-size:9px;
+color:#FFFFFF;
+padding: 6px 0 3px 0;
+margin:0;
+}
+.footer-menu a{
+text-decoration: none;
+font-family: "Font3";
+font-size:9px;
+color:#FFFFFF;
+text-shadow: 2px 2px black;
+}
 	</style>
-	<div id="home-voltar"><a href="jiveacademy.html"><img src="Imagem-JiveFlix/ThumbHome.png" alt="HOME"></a></div>
+	<div id="home-voltar">
+		<div id="home-voltar-btn"><a href="jiveacademy.html"><img src="Imagem-JiveFlix/ThumbHome.png" alt="HOME"></a></div>
+		<div id="home-logo"></div>
+	</div>
 	<div id="header">
 		<div id="header-badget"></div>
 		<div id="header-escola"><p><b>ESCOLA DE<span style="color:#9aca3b"> LÍDERES</span></b></p></div>
@@ -207,25 +265,43 @@ opacity:1;
 	<div id="desc-jiveacademy">
 	  <p>Em nossa <b>escola de <span style="color:#9aca3b">líderes </span></b>você encontrará temas direcionados à conhecimentos, ferramentas e habilidades técnicas que darão repertório a todos os líders na <b><span style="color:#9aca3b">gestão de pessoas, projetos e processos</span></b> dentro da Jive.</p></div>
 	</div>
-	<div id="video-intro-bg"><div id="video-intro"><iframe width="576" height="300" src="https://www.youtube.com/embed/O6F70sQWEFQ?rel=0&modestbranding=1&controls=0" frameborder="0" allow="accelerometer; autoplay; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+	<div id="video-intro-bg"><div id="video-intro"><img src="Imagem-JiveFlix/video-bg.png" width="576" height="300" alt=""/></div></div>
 	<div id="menu-escola-box">
 	<div id="menu-escola">
 		<div class="fileira-1">
-			<p class="titulo-fileira-1"><span>PROG.LIDERANÇA</span></p>
+			<p class="titulo-fileira-1"><span>FEEDBACK</span></p>
 			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
 		</div>
 		<div class="fileira-1">
-			<p class="titulo-fileira-1"><span>MANAGEMENT 3.0</span></p>
+			<p class="titulo-fileira-1"><span>GESTÃO DE CONFLITOS</span></p>
 			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
 		</div>
 		<div class="fileira-1">
-			<p class="titulo-fileira-1"><span>BLITZSCALING</span></p>
+			<p class="titulo-fileira-1"><span>APRESENTAÇÕES</span></p>
+			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
+			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
+		</div>
+		<div class="fileira-1">
+			<p class="titulo-fileira-1"><span>PITCH</span></p>
 			<p class="subtitulo-fileira-1">Cursos, vídeos, pílulas e artigos sobre Recuperação Judicial</p>
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><a href="https://jiveinvestments.evolke.konviva.com.br/lms/#/aula/11823/saladeaula#topico_996" target="_blank">SAIBA MAIS</a></p></div>
 		</div>
 	</div>
+	</div>
+	<div id="footer-box">
+		<div id="footer-1"></div>
+		<div class="footer-menu">
+			<p><a href="#">Bem vindx à Jive</a></p>
+			<p><a href="#">Conheça a Jive</a></p>
+			<p><a href="#">Transformação Digital</a></p>
+		</div>
+		<div class="footer-menu">
+			<p><a href="#">Jive Academy</a></p>
+			<p><a href="#">GRC</a></p>
+			<p><a href="#">Contato</a></p>
+		</div>
 	</div>
 </body>
 </html>
