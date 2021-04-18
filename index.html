@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<link rel="shortcut icon" href="Imagem-JiveFlix/favicon.ico" />
 <meta charset="utf-8">
 <title>JiveFlix</title>
 </head>
@@ -82,11 +83,11 @@ width: 420px;
 }
 #header-intro{
 display: block;
-margin-top: 20px;
+margin-top: 22px;
 margin-bottom: 0px;
 margin-left: auto;
 margin-right: auto;
-width: 180px;
+width: 185px;
 height: 33px;
 background-image:url("Imagem-JiveFlix/JiveFlix_logo.png");
 background-repeat: no-repeat;
@@ -95,7 +96,7 @@ background-position: center;
 }
 #header-intro p{
 display: block;
-padding-top: 38px;
+padding-top: 40px;
 padding-left: 6px;
 margin-bottom: 0px;
 margin-left: auto;
@@ -103,7 +104,11 @@ margin-right: auto;
 font-family	:"Font3";
 font-size: 9px;
 color:#CECECE;
-text-shadow: 1px 1px #010101;
+text-shadow: 1px 1px #333333;
+}
+#header-intro span{
+padding: 2px;
+background-color: #032f48;
 }
 #programa1{
 display: block;
@@ -130,6 +135,7 @@ background-image:url("Imagem-JiveFlix/fundo_botao.png");
 }
 #programa4{
 display: block;
+overflow: auto;
 width: 96px;
 height: 96px;
 margin:100px 80px 0 0;
@@ -155,6 +161,16 @@ padding-top: 38px;
 text-align:center;
 margin: 0 0 0 0;
 padding-top: 30px;
+}
+#titulos-img-jive-intro{
+display: block;
+margin: 30px 0 2px 3px;
+width:89px ;
+height: 22px;
+background-image: url("Imagem-JiveFlix/jiveacademy_logo.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
 }
 .subtitulos-intro{
 font-family:"Font4";
@@ -195,7 +211,7 @@ opacity:.8;
 <video autoplay muted loop id="bg_video" style="opacity: .1">
 	<source src="video-bg.mp4" type="video/mp4">
 </video>
-	<div id="header"><div id="header-intro"><p>Ecossistema de Conhecimento da Jive</p></div></div>
+	<div id="header"><div id="header-intro"><p><span>Ecossistema de Conhecimento da Jive</span></p></div></div>
 	<div id="menu-principal">
 		<div id="lado-esquerdo">
 		<div id="programa1" class="grow">
@@ -214,7 +230,7 @@ opacity:.8;
 		<div id="lado-direito">
 			<div id="programa4" class="grow">
 				<a href="jiveacademy.html" class="link-menu">
-			<p class="titulos-img-intro"><img src="Imagem-JiveFlix/123.png" alt=""/></p>
+			<p id="titulos-img-jive-intro"></p>
 			<p class="subtitulos-intro">Programa de Formação</p>
 				</a>
 		</div>
