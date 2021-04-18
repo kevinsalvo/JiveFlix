@@ -8,8 +8,7 @@
 <body>
 <style type="text/css"> 
 body {
-background-image: url("fundo.png");
-background-color: #000000;
+background-color: #00314b;
 }
 img{
 margin: 0 0 0 0;
@@ -104,7 +103,7 @@ margin-right: auto;
 font-family	:"Font3";
 font-size: 9px;
 color:#CECECE;
-	text-shadow: 1px 1px #010101;
+text-shadow: 1px 1px #010101;
 }
 #programa1{
 display: block;
@@ -181,8 +180,21 @@ cursor:pointer;
 transition:all 0.3s ease;
 opacity:.8;
 }
-
+#bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background-size: cover; 
+}
 </style>
+<video autoplay muted loop id="bg_video" style="opacity: .1">
+	<source src="video-bg.mp4" type="video/mp4">
+</video>
 	<div id="header"><div id="header-intro"><p>Ecossistema de Conhecimento da Jive</p></div></div>
 	<div id="menu-principal">
 		<div id="lado-esquerdo">

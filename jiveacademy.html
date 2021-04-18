@@ -7,8 +7,7 @@
 <body>
 <style type="text/css"> 
 body {
-background-image: url("fundo.png");
-background-color: #003758;
+background-color: #00314c;
 background-repeat: no-repeat;
 margin:0;
 padding: 0;
@@ -44,7 +43,7 @@ font-style: normal;
 #home-voltar{
 width: auto;
 height: 45px;
-background:rgba(0, 0, 0, 0.08);
+background:rgba(0, 0, 0, 0.3);
 }
 #home-voltar-btn{
 display: block;
@@ -54,7 +53,7 @@ padding:5px 0 0 5px;
 #home-logo{
 display: block;
 float:right;
-margin:5px 5px 0 0;
+margin:3px 5px 0 0;
 width: 58px;
 height: 34px;
 background-image: url("Imagem-JiveFlix/logo_jive.png");
@@ -96,10 +95,8 @@ display: block;
 margin-top: 35px;
 margin-left: auto;
 margin-right: auto;
-background-color: #111111;
+background:rgba(0,0,0,0.8);
 width: 100%;
-border-color: aqua;
-	border-width: medium;
 }
 #desc-jiveacademy{
 display: block;
@@ -172,8 +169,12 @@ text-align:center;
 color:#FFFFFF;
 margin: 110px 0 0 0;
 }
-.titulo-menu-jive-academy span{
-background-color: #333333;
+#titulo-menu-jive-academy1 span{
+background-color: #61a23e;
+padding: 5px;
+}
+#titulo-menu-jive-academy2 span{
+background-color: #008b6b;
 padding: 5px;
 }
 .subtitulo-menu-jive-academy{
@@ -182,6 +183,7 @@ font-size: 10px;
 text-align:center;
 color:#FFFFFF;
 margin: 10px 0 0 0;
+text-shadow: 1px 1px #6f6f6f;
 }
 .titulo-menu-jive-academy-grey{
 font-family: "Font3";
@@ -201,6 +203,7 @@ font-size: 10px;
 text-align:center;
 color:#333333;
 margin: 10px 0 0 0;
+text-shadow: 1px 1px #FFFFFF;
 }
 .botao-saiba-mais{
 width: 80px;
@@ -263,7 +266,7 @@ opacity:1;
 display: block;
 width: 100%;
 height: 100px;
-background-color: #011520;
+background:rgba(1, 21, 32, 0.8);
 background-image: url("Imagem-JiveFlix/logo_circulo_jive2.png");
 background-position: left;
 background-repeat: no-repeat;
@@ -297,16 +300,35 @@ font-size:9px;
 color:#FFFFFF;
 text-shadow: 2px 2px black;
 }
+.footer-menu a:hover{
+text-shadow: none; 
+text-decoration-color: #FFFFFF;
+color:#5a9423;
+}	
+#bg_video{
+position: fixed; 
+right: 0; 
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+width: auto; 
+height: auto; 
+z-index: -1000;
+background-size: cover; 
+}
 	</style>
+	<video autoplay muted loop id="bg_video" style="opacity: .1">
+	<source src="video-bg.mp4" type="video/mp4">
+</video>
 	<div id="home-voltar">
-		<div id="home-voltar-btn"><a href="index.html"><img src="Imagem-JiveFlix/ThumbHome.png" alt="HOME"></a></div>
-		<div id="home-logo"></div>
+		<div id="home-voltar-btn"><a href="index.html"><img src="Imagem-JiveFlix/ThumbHome.png" alt="Home"></a></div>
+		<a href="http://www.jiveinvestments.com/" target="_blank" alt="Jive Investments"><div id="home-logo"></div></a>
 	</div>
 	
 	<div id="header"><div id="header-jiveacademy"><p>#LEARN DURING THE RUN</p></div></div>
 	
 	<div id="desc-jiveacademy-bg">
-		<div id="desc-jiveacademy"><p>A <b>Jive <span style="color:#9aca3b">Academy</span></b> é o nosso programa de formação interna da Jive. O programa está dividido em <b><span style="color:#9aca3b">três escolas</span></b>, onde as duas primeiras são destinadas a todos os Jivers e a terceira é aos nossos líderes e gestores. As escolas tem conteúdos de temas diversos em multi-formatos e de aprendizagem autodirigida, ou seja, se inscreva e aprenda à vontade no tempo em que preferir.</p>
+		<div id="desc-jiveacademy"><p>A <u><b>Jive <span style="color:#9aca3b">Academy</span></b></u> é o nosso programa de formação interna da Jive. O programa está dividido em <b><span style="color:#9aca3b">três escolas</span></b>, onde as duas primeiras são destinadas a todos os Jivers e a terceira é aos nossos líderes e gestores. As escolas tem conteúdos de temas diversos em multi-formatos e de aprendizagem autodirigida, ou seja, se inscreva e aprenda à vontade no tempo em que preferir.</p>
 		</div>
 	</div>
 	<div id="video-intro-bg">
@@ -315,14 +337,14 @@ text-shadow: 2px 2px black;
 	<div id="menu-jive-academy-box">
 	<div id="menu-jive-academy">
 		<div id="menu-item1-jive-academy" class="fade">
-			<p class="titulo-menu-jive-academy"><b><span>ESCOLA DE COMPETÊNCIAS APLICADAS</span></b></p>
+			<p id="titulo-menu-jive-academy1" class="titulo-menu-jive-academy"><b><span>ESCOLA DE COMPETÊNCIAS APLICADAS</span></b></p>
 			<p class="subtitulo-menu-jive-academy">RJ | Matemática Financeira | Blockchain | Python | Excel</p>
 			<a href="escolacompetenciasaplicadas.html" class="link-menu">
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><b>SAIBA MAIS</b></p></div>
 			</a>
 		</div>
 		<div id="menu-item2-jive-academy" class="fade">
-			<p class="titulo-menu-jive-academy"><b><span>ESCOLA DE COMPETÊNCIAS COMPORTAMENTAIS</span></b></p>
+			<p id="titulo-menu-jive-academy2" class="titulo-menu-jive-academy"><b><span>ESCOLA DE COMPETÊNCIAS COMPORTAMENTAIS</span></b></p>
 			<p class="subtitulo-menu-jive-academy">Pitch | Feedback | Agile Culture | Storytelling | Gestão de Conflitos</p>
 			<a href="escolacompetenciascomportamentais.html" class="link-menu">
 			<div class="botao-saiba-mais"><p class="texto-saiba-mais"><b>SAIBA MAIS</b></p></div>
