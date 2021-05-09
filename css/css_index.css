@@ -155,14 +155,14 @@ margin-left: 33%;
 }
 #programa4{
 display: block;
-overflow: auto;
 width: 80%;
 height: 40%;
 background-image:url("../Imagem-JiveFlix/fundo_botao.png");
 background-repeat: no-repeat;
 background-size:contain;
 background-position: center;
-background-color:#413400;
+margin-top:35%;
+margin-right: 30%;
 }
 #programa5{
 display: block;
@@ -172,8 +172,7 @@ background-image:url("../Imagem-JiveFlix/fundo_botao.png");
 background-repeat: no-repeat;
 background-size:contain;
 background-position: center;
-margin-top:75%;
-margin-right: 20%;
+margin-top:35%;
 }
 .titulos-intro{
 font-family:"Font4";
@@ -182,6 +181,9 @@ text-align:center;
 color:#9aca3b;
 margin: 0 0 0 0;
 padding-top: 15%;
+}
+.titulos-intro span{
+color:#FFFFFF;
 }
 .titulos-img-intro{
 text-align:center;
