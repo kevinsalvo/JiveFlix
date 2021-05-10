@@ -99,59 +99,68 @@ min-width: 320px;
 display: block;
 width: 100%;
 height: auto;
-margin-top: 0;	
-background-color: #003b5b;
+margin-top: 0;
 }
 #menu-item-1{
 display: block;
 width: 100%;
 height: 20vh;
-background-color:#68a35b;
+background:rgba(104, 163, 91, 0.7);
+}
+
+#menu-item-1-titulo{
+display: block;
+float: left;
+text-align: left;
+width: 55%;
+font-size: 2.5vw;
+color:#fff;
+font-family: "Font3";
+text-shadow: 1px 1px #cccccc;
 }
 
 #menu-item-2{
 display: block;
 width: 100%;
 height: 20vh;
-background-color:#00a989;
+background:rgba(0, 169, 137, 0.7);
+}
+
+#menu-item-2-titulo{
+display: block;
+float:right;
+text-align: right;
+width: 75%;
+font-size: 2.5vw;
+color:#fff;
+font-family: "Font3";
+text-shadow: 1px 1px #cccccc;
 }
 
 #menu-item-3{
 display: block;
 width: 100%;
 height: 20vh;
-background-color:#a9b2b7;
+background:rgba(169, 178, 183, 0.75);
 }
-.botao-saiba-mais:hover{
-transition:all 0.3s ease;
--webkit-transform: scale(1.1);
--ms-transform: scale(1.1);
-transform: scale(1.1);
-}
-.botao-saiba-mais-grey:hover{
-transition:all 0.3s ease;
--webkit-transform: scale(1.1);
--ms-transform: scale(1.1);
-transform: scale(1.1);
-}
-.texto-saiba-mais{
+
+#menu-item-3-titulo{
+display: block;
+float:left;
+text-align: left;
+width: 50%;
+font-size: 2.5vw;
+color:#fff;
 font-family: "Font3";
-font-size: 10px;
-text-align:center;
-color:#FFFFFF;
-margin: 0 0 0 0;
-padding-top: 8px;
+text-shadow: 1px 1px #cccccc;
 }
-.texto-saiba-mais-grey{
-font-family: "Font3";
-font-size: 10px;
-text-align:center;
-color:#575757;
-margin: 0 0 0 0;
-padding-top: 8px;
-}
+
 .link-menu{
 	text-decoration: none;
+}
+.link-menu a:hover{
+	color: #333;
+	background-color: aqua;
 }
 
 .fade
