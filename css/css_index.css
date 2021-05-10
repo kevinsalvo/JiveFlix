@@ -30,6 +30,16 @@ height: auto;
 z-index: -1000;
 background-size: cover; 
 }
+#home-logo{
+display: block;
+float:right;
+margin:3px 5px 0 0;
+width: 58px;
+height: 34px;
+background-image: url("../Imagem-JiveFlix/logo_jive.png");
+background-repeat:no-repeat;
+background-size: contain;
+}
 #header{
 display: block;
 margin-bottom: 0px;
