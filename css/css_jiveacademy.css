@@ -31,16 +31,13 @@ font-style: normal;
 	}
 	#header-jiveacademy{
 		width: 30%;
-		height: 20%;
-		min-width: 250px;
-		min-height: 75px;
-		background-color: aqua;
+		height: 30%;
 	}
 	#desc-jiveacademy p{
 		font-size:2.5vw;
 	}
 	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
-		font-size: 4.0vw;
+		font-size:5.0vw;
 	}
 	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
 		font-size: 1.5vw;
@@ -54,9 +51,6 @@ font-style: normal;
 	#header-jiveacademy{
 		width: 40%;
 		height: auto;
-		min-width: 250px;
-		min-height: 75px;
-		background-color: black
 	}
 	#desc-jiveacademy p{
 		font-size:1vw;
@@ -250,7 +244,7 @@ opacity:1;
 #footer-box{
 display: block;
 width: 100%;
-height: 18vh;
+height: 20vh;
 background:rgba(1, 21, 32, 0.8);
 background-image: url("../Imagem-JiveFlix/logo_circulo_jive2.png");
 background-position:right;
@@ -259,7 +253,7 @@ background-repeat: no-repeat;
 #footer-menu-box{
 display: block;
 float:left;
-margin:0;
+margin-left:30px;
 width: 100%;
 }
 #footer-1{
