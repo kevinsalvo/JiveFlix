@@ -30,8 +30,8 @@ font-style: normal;
 		font-size:1.5;
 	}
 	#header-jiveacademy{
-		width: 30%;
-		height: 30%;
+		width: 50%;
+		height: 100px;
 	}
 	#desc-jiveacademy p{
 		font-size:2.5vw;
@@ -49,8 +49,8 @@ font-style: normal;
 		font-size:3vw;
 	}
 	#header-jiveacademy{
-		width: 40%;
-		height: auto;
+		width:18%;
+		height: 100px;
 	}
 	#desc-jiveacademy p{
 		font-size:1vw;
@@ -229,7 +229,7 @@ padding: 0 0 0 10px;
 	text-shadow: 1px 1px #cccccc;
 }
 .link-menu:hover{
-	color: #333;
+	color: #003450;
 }
 
 .fade
