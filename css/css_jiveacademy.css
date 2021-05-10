@@ -101,6 +101,24 @@ width: 100%;
 height: auto;
 margin-top: 0;
 }
+
+@media screen and (min-width: 420px) {
+	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
+	font-size: 4.0vw;
+	}
+	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
+	font-size: 2.5vw;
+	}
+}
+@media screen and (min-width: 1000px) {
+	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
+	font-size: 2.5vw;
+	}
+	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
+	font-size: 1vw;
+	}
+}
+
 #menu-item-1{
 display: block;
 width: 100%;
@@ -114,7 +132,6 @@ display: block;
 float: left;
 text-align: left;
 width: 100%;
-font-size: 2.5vw;
 color:#fff;
 font-family: "Font3";
 text-shadow: 1px 1px #cccccc;
@@ -134,7 +151,6 @@ display: block;
 float:right;
 text-align: right;
 width: 100%;
-font-size: 2.5vw;
 color:#fff;
 font-family: "Font3";
 text-shadow: 1px 1px #cccccc;
@@ -155,7 +171,6 @@ display: block;
 float:left;
 text-align: left;
 width: 100%;
-font-size: 2.5vw;
 color:#fff;
 font-family: "Font3";
 text-shadow: 1px 1px #cccccc;
@@ -165,7 +180,6 @@ text-shadow: 1px 1px #cccccc;
 display: block;
 text-align: left;
 width: 100%;
-font-size: 1vw;
 color:#fff;
 font-family: "Font3";
 text-shadow: 1px 1px #333;
@@ -176,7 +190,6 @@ padding: 0 0 0 10px;
 display: block;
 text-align:right;
 width: 100%;
-font-size: 1vw;
 color:#fff;
 font-family: "Font3";
 text-shadow: 1px 1px #333;
@@ -187,7 +200,6 @@ padding: 0 50px 0 0;
 display: block;
 text-align: left;
 width: 100%;
-font-size: 1vw;
 color:#fff;
 font-family: "Font3";
 text-shadow: 1px 1px #333;
