@@ -26,7 +26,8 @@ font-style: normal;
 
 @media screen and (min-width: 420px) {
 	#video-intro{
-		width: 95%;
+		width: 100%;
+		font-size:1.5;
 	}
 	#header-jiveacademy{
 		width: 30%;
@@ -48,6 +49,7 @@ font-style: normal;
 @media screen and (min-width: 1000px) {
 	#video-intro{
 		width: 50%;
+		font-size:3vw;
 	}
 	#header-jiveacademy{
 		width: 40%;
