@@ -31,7 +31,7 @@ font-style: normal;
 	}
 	#header-jiveacademy{
 		width: 50%;
-		height: 100px;
+		height: 80px;
 	}
 	#desc-jiveacademy p{
 		font-size:2.5vw;
@@ -40,7 +40,7 @@ font-style: normal;
 		font-size:5.0vw;
 	}
 	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
-		font-size: 1.5vw;
+		font-size: 2vw;
 	}
 }
 @media screen and (min-width: 1000px) {
@@ -287,7 +287,7 @@ text-shadow: 2px 2px black;
 }
 .footer-menu a:hover{
 text-shadow: none; 
-text-decoration-color: #FFFFFF;
+text-decoration-color: #000;
 color:#82cb22;
 }	
 #bg_video{
