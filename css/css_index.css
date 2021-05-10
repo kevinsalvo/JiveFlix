@@ -51,9 +51,6 @@ width:100%;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 12%;
-min-width: 400px;
-height: 10%;
 background-image:url("../Imagem-JiveFlix/jiveflix_logo_topo.png");
 background-repeat: no-repeat;
 background-size:contain;
@@ -61,17 +58,16 @@ background-position: center top;
 }
 
 @media screen and (min-width: 320px) {
-  #header-intro-titulo p {
-    color:red;
-  }
+	#header-intro{
+		width: 35%;
+		height: 10%;
+	}	
 }
 @media screen and (min-width: 1000px) {
-  #header-intro-titulo p {
-    color:white;
-	font-size: 1vw;
-	width: 30%;
-	background-color:green;
-  }
+	#header-intro{
+		width: 20%;
+		height: 10%;
+	}
 }
 
 #header-intro-titulo p{
@@ -158,7 +154,7 @@ background-size:contain;
 background-position:right bottom;
 width: 40%;
 height: 40%;
-margin-top:5%;
+margin-top:3%;
 margin-left:50%;
 }
 #programa4{
