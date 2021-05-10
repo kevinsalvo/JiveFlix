@@ -23,6 +23,50 @@ url('../Fonts/sourcesanspro-regular-webfont.woff') format('woff');
 font-weight: normal;
 font-style: normal;
 }
+
+@media screen and (min-width: 420px) {
+	#video-intro{
+		width: 95%;
+	}
+	#header-jiveacademy{
+		width: 30%;
+		height: 20%;
+		min-width: 250px;
+		min-height: 75px;
+		background-color: aqua;
+	}
+	#desc-jiveacademy p{
+		font-size:2.5vw;
+	}
+	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
+		font-size: 4.0vw;
+	}
+	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
+		font-size: 1.5vw;
+	}
+}
+@media screen and (min-width: 1000px) {
+	#video-intro{
+		width: 50%;
+	}
+	#header-jiveacademy{
+		width: 40%;
+		height: auto;
+		min-width: 250px;
+		min-height: 75px;
+		background-color: black
+	}
+	#desc-jiveacademy p{
+		font-size:1vw;
+	}
+	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
+		font-size: 2.5vw;
+	}
+	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
+		font-size: 1vw;
+	}
+}
+
 #home-voltar{
 width: 100%;
 height: 8vh;
@@ -49,10 +93,6 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top:1%;
-width: 20%;
-height: auto;
-min-width: 250px;
-min-height: 75px;
 background-image:url("../Imagem-JiveFlix/jiveacademy_logo.png");
 background-repeat: no-repeat;
 background-size:contain;
@@ -78,7 +118,6 @@ height: auto;
 }
 #desc-jiveacademy p{
 font-family:"Font3";
-font-size:1vw;
 text-align:center;
 color:#FFFFFF;
 }
@@ -92,31 +131,12 @@ padding: 0;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
-min-width: 320px;
 }
 #menu-jive-academy-box{
 display: block;
 width: 100%;
 height: auto;
 margin-top: 0;
-}
-
-@media screen and (min-width: 420px) {
-	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
-	font-size: 4.0vw;
-	}
-	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
-	font-size: 2.5vw;
-	}
-}
-@media screen and (min-width: 1000px) {
-	#menu-item-1-titulo, #menu-item-2-titulo, #menu-item-3-titulo{
-	font-size: 2.5vw;
-	}
-	#menu-item-1-subtitulo, #menu-item-2-subtitulo, #menu-item-3-subtitulo{
-	font-size: 1vw;
-	}
 }
 
 #menu-item-1{
