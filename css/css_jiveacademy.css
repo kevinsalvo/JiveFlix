@@ -281,7 +281,7 @@ text-shadow: none;
 text-decoration-color: #FFFFFF;
 color:#82cb22;
 }	
-#bg_video{
+/*#bg_video{
 position: fixed; 
 right: 0; 
 bottom: 0;
@@ -291,4 +291,4 @@ width: auto;
 height: auto; 
 z-index: -1000;
 background-size: cover; 
-}
+}*/
