@@ -108,6 +108,10 @@ a:hover {
   bottom: 0;
   padding: 10px;
 }
+.tile__title a{
+  color:#FFF;
+	text-decoration: none;
+}
 .row__inner:hover {
   transform: translate3d(-62.5px, 0, 0);
 }
