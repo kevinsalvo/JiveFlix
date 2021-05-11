@@ -3,8 +3,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="Imagem-JiveFlix/favicon.ico" />
+	
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/html5gallery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  src="js/videogalley.js"></script>
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/css_videogalley.css">
 <link rel="stylesheet" href="css/css_jiveacademy.css">
 <meta charset="utf-8">
 <title>Jive Academy</title>
@@ -20,24 +26,53 @@
 	
 	<div id="header-jiveacademy"></div>
 	
-	<div id="desc-jiveacademy-bg">
-		<div id="desc-jiveacademy">
-		  <p>A <u><b>Jive <span style="color:#9aca3b">Academy</span></b></u> é o nosso programa de desenvolvimento e formação interna da Jive. Dividida em <b><span style="color:#9aca3b">três escolas</span></b>, a ‘Escola de Habilidades Aplicadas” e a “Escola de Habilidades Comportamentais” são destinadas a todos os Jivers, enquanto a terceira, a “Escola de Líderes” é exclusiva aos nossos sócios e gestores. Com conteúdo abrangente em diferentes formatos, os treinamentos tem como foco desenvolver os nossos colaboradores em diversas áreas e assuntos. Acesse aqui o conteúdo de cada Escola no tempo em que preferir.</p>
+	<div id="desc-jiveacademy-titulo-bg">
+		<div id="desc-jiveacademy-titulo">
+		  <p>A <i><b>Jive <span style="color:#9aca3b">Academy</span></b> é o nosso programa de desenvolvimento e formação interna da Jive.</i></p>
+		</div>
+	</div>
+	<div id="desc-jiveacademy-subtitulo-bg">
+		<div id="desc-jiveacademy-subtitulo">
+		  <p>Dividida em <b><span style="color:#9aca3b">três escolas</span></b>, a ‘Escola de Habilidades Aplicadas” e a “Escola de Habilidades Comportamentais” são destinadas a todos os Jivers, enquanto a terceira, a “Escola de Líderes” é exclusiva aos nossos sócios e gestores. Com conteúdo abrangente em diferentes formatos, os treinamentos tem como foco desenvolver os nossos colaboradores em diversas áreas e assuntos, no tempo em que preferir.</p>
 		</div>
 	</div>
 	<div id="video-intro-bg">
 	<div id="video-intro">
-		<div data-skin="darkness"  class="html5gallery">
-			<a href="https://www.youtube.com/embed/O6F70sQWEFQ"><img src="http://img.youtube.com/vi/O6F70sQWEFQ/2.jpg" alt="Destaque 1"></a>
-			<a href="https://www.youtube.com/watch?v=JkfMYG2mFtk"><img src="http://img.youtube.com/vi/JkfMYG2mFtk/2.jpg" alt="Destaque 2"></a>
-		</div>
+		<div class="container">
+				  <div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+					  <div id="random_number1" class="carousel slide youtube-carousel"  data-ride="carousel" data-interval="false">
+						<div class="carousel-inner">
+						  <div class="video-container item active">
+							<div class="youtube-video" id="JkfMYG2mFtk"></div>
+						  </div>
+						  <div class="video-container item ">
+							<div class="youtube-video" id="O6F70sQWEFQ"></div>
+						  </div>
+						</div>
+						<div class="controls">
+						  <a class="left carousel-control" href="#random_number1" data-slide="prev">
+							<div class="left-button">
+							  <div class="glyphicon glyphicon-chevron-left"></div>
+							</div>
+						  </a>
+						  <a class="right carousel-control" href="#random_number1" data-slide="next">        
+							<div class="right-button">
+							  <div class="glyphicon glyphicon-chevron-right"></div>
+							</div>
+						  </a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
 	</div>
 	
 	</div>
 	<div id="menu-jive-academy-box">
 		<div id="menu-item-1">
 			<p id="menu-item-1-titulo"><a href="escolacompetenciasaplicadas.html" class="link-menu">#ESCOLA DE HABILIDADES TÉCNICAS</a></p>
-			<p id="menu-item-1-subtitulo">RJ | Matemática Financeira | Blockchain | Python | Excel</p>
+			<p id="menu-item-1-subtitulo">Recuperação Judicial | Matemática Financeira | Blockchain | Python | Excel</p>
 		</div>
 		<div id="menu-item-2">
 			<p id="menu-item-2-titulo"><a href="escolacompetenciascomportamentais.html" class="link-menu">#ESCOLA DE HABILIDADES COMPORTAMENTAIS</a></p>
